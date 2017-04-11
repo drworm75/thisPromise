@@ -1,1 +1,3 @@
-alert('JS Ready');
+$('#test').on('click', function () {
+	alert("JQuery Works!");
+});
