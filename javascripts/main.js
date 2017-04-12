@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	$('#test').on('click', function (e) {
-		console.log("event",event)
+		console.log("event",event);
 		console.log("this", $(this));
-		console.log("this not jq", this)
+		console.log("this not jq", this);
 	});
 });
 
